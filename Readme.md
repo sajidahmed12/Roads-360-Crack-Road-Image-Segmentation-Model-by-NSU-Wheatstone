@@ -20,7 +20,12 @@ in ensuring a safer commutation experience for citizens of Bangladesh. In the ca
 ---
 ![demo_gif #link_willbe_updated ][video]
 
-
+### Installing 
+- Clone this repository:
+   ```Shell
+   git clone https://github.com/sajidahmed12/Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
+   cd Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
+   ```
 
 ### 1 Code & Files
 
