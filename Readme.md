@@ -128,6 +128,11 @@ while intermediate layers are shown as vertical lines
 ![vgg16][image2]
 
 
+
+#### 2.3 Our Full Model Flow
+
+![][15]
+
 #### 2.3 Classification & Loss
 we can approach training a FCN just like we would approach training a normal
 classification CNN.
@@ -332,10 +337,11 @@ how to segment the road even under the over-expose scenarios.
 [l2]: ./data/Source/test11.png
 [l3]: ./data/Source/test82.png
 [l4]: ./data/Source/test87.png
+[15]: image_segm_final.png
 [demo_gif]: ./data/Ssource/demo.gif
 [video]: ./data/Source/video.gif
 [Marvin]: https://github.com/MarvinTeichmann
 [JunshengFu]: https://github.com/JunshengFu
 
 
-if any issues please Contract @sajid.ahmed1@northsouth.edu
+if any issues please Contact me [Md Sajid Ahmed](mailto:sajid.ahmed1@northsouth.edu)
