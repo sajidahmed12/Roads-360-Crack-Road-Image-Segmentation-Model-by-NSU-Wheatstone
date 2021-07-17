@@ -1,7 +1,19 @@
-# **Roads360 Image Segmentation**
+# **Roads 360 Crack Road Image Segmentation Model by NSU Wheatsone**
 
 ### Objective
-In the case of the autonomous driving in Bangladesh , given an front camera view, the car needs to know where is the road and where are the Crackes on the road surface . In this project, we trained a deep neural network to label the pixels of a road in images, by using a method named Fully Convolutional Network (FCN). In this project, FCN-VGG16 is implemented and trained with our Own collected dataset for road and Crack segmentation.
+Bangladesh has been fighting the issue of ensuring a safer road management
+system since its inception. Yet Bangladesh is suffering from an incapable and unattended
+road communication system. Building good-quality roads with sustainable materials
+covers only a part of maintaining and preserving a safe road system. But maintaining
+real-time observation and constant data collection about the routes is a must to
+ensure safe roads for safe commutation. Automation in real-time data collection about
+the road surface condition and providing analyzed feedback to the government and people
+can effectively reduce road accidents across the country. In this project, we
+present a smart system for road health monitoring. The two main branches of this project
+are Large-scale crowd-sourced data collection of road-surface condition through user application
+and Real-time feedback based on image segmentation to detect road-cracks
+and anomalies. We believe that such a crowd-sourcing-based platform will be highly effective
+in ensuring a safer commutation experience for citizens of Bangladesh. In the case of the autonomous driving in Bangladesh , given an front camera view, the car needs to know where is the road and where are the Crackes on the road surface . In this project, we trained a deep neural network to label the pixels of a road in images, by using a method named Fully Convolutional Network (FCN). In this project, FCN-VGG16 is implemented and trained with our Own collected dataset for road and Crack segmentation.
 
 ### Demo output
 
