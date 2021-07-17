@@ -1,23 +1,21 @@
 # **Roads360 Image Segmentation**
 
 ### Objective
-In the case of the autonomous driving in Bangladesh , given an front camera view, the car needs to know where is the road and where are the Crackes on the road surface . In this project, we trained a neural network to label the pixels of a road in images, by using a method named Fully Convolutional Network (FCN). In this project, FCN-VGG16 is implemented and trained with our Own collected images for road and Crack segmentation.
+In the case of the autonomous driving in Bangladesh , given an front camera view, the car needs to know where is the road and where are the Crackes on the road surface . In this project, we trained a deep neural network to label the pixels of a road in images, by using a method named Fully Convolutional Network (FCN). In this project, FCN-VGG16 is implemented and trained with our Own collected dataset for road and Crack segmentation.
 
-### Demo
-
-[![demo_gif #link_willbe_updated ][video]](#Link_will_be_updated)
-
-(click the link to see the full video)
+### Demo output
 
 ---
+![demo_gif #link_willbe_updated ][video]
+
 
 
 ### 1 Code & Files
 
-#### 1.1 My project includes the following files and folders
+### 1.1 My project includes the following files and folders
 
 * [main.py](main.py) is the main code for demos
-* [testing.py](testing.py) unittest images testing
+* [testing.py](testing.py) single images testing
 * [helper.py](hepler.py) includes some helper functions for preprocessing and image labeling masking
 * [data](data) folder contains our labeled images of road data, the VGG model and source images.
 * [model](model) folder is used to save the trained model
@@ -25,7 +23,7 @@ In the case of the autonomous driving in Bangladesh , given an front camera view
 
 
 
-#### 1.2 Dependencies & my environment
+### 1.2 Dependencies & my environment
 
 Anaconda is used for managing the environment.
 
@@ -36,70 +34,64 @@ Anaconda is used for managing the environment.
 * HP 512 GB M.2 SATA SSD
 * Memory: 16GB DDR4 @2400 MHz
 
-#### 1.3 How to run the code
+### 1.3 How to run the code and Train the model
 
-(1) Download our Road Images data (training and testing)
-
+* Download our Road Images data (training and testing)
 Download the [dataset](#link_will_be_given)
 from [here](#link_will_be_given).  Extract the
 dataset in the **data** folder. This will create the folder **data_road** with all
 the training a test images.
 
-(2) Load pre-trained VGG
+* Load pre-trained VGG-16 model using this function ```maybe_download_pretrained_vgg()``` in ```helper.py``` file.
 
-Function ```maybe_download_pretrained_vgg()``` in ```helper.py``` will do
-it automatically donwload for you.
+## Run the code: For Model Training
+Open cmd in widnows or open terminal in Ubuntu/any linux distro then activate your virtual anaconda enviornmentexample :
 
-(3) Run the code: 
-[Training the Model]
-activate [your virtual anaconda enviornment] for example :
-
-```activate tensorflow
+```sh
+activate tensorflow
 ``` 
 then type
 
 ```sh
 python train_model.py
 ```
-(4) Use my trained model to predict new images 
 
-You can download my trained model [here](#_our_trained_model_gdrive_link)
-and save it to the folder [model](model). 
+## Run the code: For  Testing
+(4) Use my pretrained model to predict with your own images. 
+
+Download my trained model from this link [here](#_our_trained_model_gdrive_link)
+and place it in the[model](model). folder
 
 Testing  there is a python  Script called ```test_model.py ``` 
 
 Then run the code using : 
-[Testing the Model]
 
 ```sh
 python test_model.py
 ```
-This Will Create A Directory in the Output Folder and Save all the Images Serialy one by one 
+This will create a directory in the output folder and save all the images one by one with the predicted labels.  
 
 
 
-(5)Export Images to SegmentedVideo[here](#Updated_Soon.........)  
-
-#### 1.4. Release History
+#### 1.4. Version History
 
 * 0.1.1
     * Updated documents
-    * Date 7 December 2017 by Marvin
+    * Date 7 December 2017 by [Marvin]
 
 * 0.1.0
     * The first proper release
-    * Date 6 December 2017 by JunshengFu
+    * Date 6 December 2017 by [JunshengFu]
 
 * 0.1.1 
-    * Updaed  Model for Road Crack and Surroundings by team CSE499.AZK-Team-09  
-    * on August 2019 Developed By Sajid Ahmed  
+    * Updated Model for Road Crack and Surroundings by team CSE499.AZK-Team-09  
+    * on August 2019 Developed By me (Sajid Ahmed)  
 
 
----
 
-### 2 Network Architecture
+## 2 Network Architecture
 
-#### 2.1 Fully Convolutional Networks (FCN) in the Wild
+#### 2.1 Fully Convolutional Networks (FCN) Modified Model Architecture.
 
 ![][image0]
 
@@ -154,11 +146,11 @@ Then, we have an end-to-end model for semantic segmentation.
 
 #### 3.1 Training data examples from our dataset
 
-**Origin Image**
+**Original Image**
 
 ![][image3]
 
-**Mask image**
+**Mask/Segmented image**
 
 ![][image4]
 
@@ -168,13 +160,13 @@ from [here](#Link_will_be_given.road.zip).
 
 
 
-#### 3.2 Training and Testing data
+### 3.2 Training and Testing data
 
 There are **5000** testing images are processed with the trained models.
 5000 frames from are a video collected by team CSE499B.AZk-09-04 arroudnd Dhaka city and other 3000 images from random places in Dhaka City.
 
 
-### 4 Experiments
+## 4 Experiments
 
 Some key parameters in training stage, and the traning loss and training
 time for each epochs are shown in the following table.
@@ -275,11 +267,11 @@ Loss = 0.029
 Training Finished. Saving test images to: ./outputs/
 All done!
 ```
+
+## 5 Discussion
 ---
 
-### 5 Discussion
-
-#### 5.1 Good Performance
+### 5.1 Good Performance
 
 With only 1000 labeled training images, the FCN-VGG16 performs well to find
 where is the road in the testing data, and the testing speed is about 7/8
@@ -342,6 +334,8 @@ how to segment the road even under the over-expose scenarios.
 [l4]: ./data/Source/test87.png
 [demo_gif]: ./data/Ssource/demo.gif
 [video]: ./data/Source/video.gif
+[Marvin]: https://github.com/MarvinTeichmann
+[JunshengFu]: https://github.com/JunshengFu
 
 
 if any issues please Contract @sajid.ahmed1@northsouth.edu
