@@ -20,7 +20,7 @@ in ensuring a safer commutation experience for citizens of Bangladesh. In the ca
 ---
 ![demo_gif #link_willbe_updated ][video]
 
-### 1 Code & Files
+### Code & Files
 
 ### 1.1 My project includes the following files and folders
 
@@ -106,7 +106,7 @@ This will create a directory in the output folder and save all the images one by
 
 
 
-## 2 Network Architecture
+## Network Architecture
 
 #### 2.1 Fully Convolutional Networks (FCN) Modified Model Architecture.
 
@@ -164,7 +164,7 @@ cross_entropy_loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logi
 ```
 Then, we have an end-to-end model for semantic segmentation.
 
-### 3 Dataset
+### Dataset
 
 #### 3.1 Training data examples from our dataset
 
@@ -290,7 +290,7 @@ Training Finished. Saving test images to: ./outputs/
 All done!
 ```
 
-## 5 Discussion
+## Discussion
 ---
 
 ### 5.1 Good Performance
