@@ -188,7 +188,7 @@ There are **5000** testing images are processed with the trained models.
 5000 frames from are a video collected by team CSE499B.AZk-09-04 arroudnd Dhaka city and other 3000 images from random places in Dhaka City.
 
 
-## 4 Experiments
+## Experiments
 
 Some key parameters in training stage, and the traning loss and training
 time for each epochs are shown in the following table.
