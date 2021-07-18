@@ -1,4 +1,4 @@
-# **Roads 360 Crack Road Image Segmentation Model by NSU Wheatsone**
+# **Roads 360 Crack Road Image Segmentation Model by NSU Wheatstone**
 
 ### Objective
 Bangladesh has been fighting the issue of ensuring a safer road management
