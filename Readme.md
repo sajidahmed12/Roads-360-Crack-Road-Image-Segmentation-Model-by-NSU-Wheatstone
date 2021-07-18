@@ -20,13 +20,6 @@ in ensuring a safer commutation experience for citizens of Bangladesh. In the ca
 ---
 ![demo_gif #link_willbe_updated ][video]
 
-### Installing 
-- Clone this repository:
-   ```Shell
-   git clone https://github.com/sajidahmed12/Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
-   cd Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
-   ```
-
 ### 1 Code & Files
 
 ### 1.1 My project includes the following files and folders
@@ -62,7 +55,14 @@ the training a test images.
 * Load pre-trained VGG-16 model using this function ```maybe_download_pretrained_vgg()``` in ```helper.py``` file.
 
 ## Run the code: For Model Training
-Open cmd in widnows or open terminal in Ubuntu/any linux distro then activate your virtual anaconda enviornmentexample :
+
+- Clone this repository:
+   ```Shell
+   git clone https://github.com/sajidahmed12/Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
+   cd Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
+   ```
+   
+- Open cmd in widnows or open terminal in Ubuntu/any linux distro then activate your virtual anaconda enviornmentexample :
 
 ```sh
 activate tensorflow
