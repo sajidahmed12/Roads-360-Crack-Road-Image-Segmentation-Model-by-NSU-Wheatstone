@@ -58,8 +58,8 @@ the training a test images.
 
 - Clone this repository:
    ```Shell
-   git clone https://github.com/sajidahmed12/Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
-   cd Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatsone
+   git clone https://github.com/sajidahmed12/Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatstone
+   cd Roads-360-Crack-Road-Image-Segmentation-Model-by-NSU-Wheatstone
    ```
    
 - Open cmd in widnows or open terminal in Ubuntu/any linux distro then activate your virtual anaconda enviornmentexample :
