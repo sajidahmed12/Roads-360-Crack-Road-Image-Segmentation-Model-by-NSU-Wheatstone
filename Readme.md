@@ -360,5 +360,6 @@ how to segment the road even under the over-expose scenarios.
 [Marvin]: https://github.com/MarvinTeichmann
 [JunshengFu]: https://github.com/JunshengFu
 
-
+## References 
+* [1] Teichmann, M., Weber, M., Zoellner, M., Cipolla, R., & Urtasun, R. (2018, June). Multinet: Real-time joint semantic reasoning for autonomous driving. In 2018 IEEE Intelligent Vehicles Symposium (IV) (pp. 1013-1020). IEEE.
 if any issues please Contact me [Md Sajid Ahmed](mailto:sajid.ahmed1@northsouth.edu)
